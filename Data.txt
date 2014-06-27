@@ -1,0 +1,25 @@
+/*
+Message data retrieved from syslog by using NSLog.
+Use to figure out how images (and other attachments) are sent
+
+Jun 15 13:44:14 The-Supreme-Overlord MobileSMS[46692]: [CKTranscriptController sendMessage:<CKComposition: 0x17042a5e0> text:'http://i.imgur.com/J3dvNfH.png{
+	}' subject:'(null)']
+    
+Jun 15 13:46:17 The-Supreme-Overlord MobileSMS[46692]: [CKTranscriptController sendMessage:<CKComposition: 0x17042afa0> text:'{
+	    NSAttachment = "<CKImageMediaObject: 0x17043b300>(public.png) [<CKIMFileTransfer: 0x1782c4280> [[IMFileTransfer: 0x1783a0380  state: Waiting for Accept  local path: file:///var/tmp/com.apple.MobileSMS/Media/FE37804C-1965-40D3-B9C7-C1CF10B96E8E/IMG_5136.png  transferred name: (null)  guid: 3F6896EE-588E-4C4A-AE9D-C4BEAEB1F787  error: 0  total bytes: 212761]] isFileURLFinalized:0 isFileDataReady:1 isDownloadable:0 isDownloading:0 isRestoring:0 error:(null) fileURL:file:///var/tmp/com.apple.MobileSMS/LinkedFiles/55245A7F-172B-4570-811C-706F76A0D6F6/IMG_5136.png linkFileURL:file:///var/tmp/com.apple.MobileSMS/LinkedFiles/55245A7F-172B-4570-811C-706F76A0D6F6/IMG_5136.png filename:IMG_5136.png transcoderUserInfo:(null) currentBytes:0 totalBytes:212761 message:(null)]";
+	}' subject:'(null)']
+    
+    
+*********************************
+
+Jun 15 15:59:19 The-Supreme-Overlord MobileSMS[47136]: [CKTranscriptController sendMessage:<CKComposition: 0x17862d940> text:'T{
+	}{
+	    NSAttachment = "<CKImageMediaObject: 0x17862ce00>(dyn.age81a2pd) [<CKIMFileTransfer: 0x1702c26f0> [[IMFileTransfer: 0x1781b6c00  state: Waiting for Accept  local path: file:///AutoProxy.pac  transferred name: (null)  guid: C84F036B-CE03-4D6E-AC39-ACA767719E75  error: 0  total bytes: 487]] isFileURLFinalized:0 isFileDataReady:0 isDownloadable:1 isDownloading:0 isRestoring:0 error:(null) fileURL:file:///var/tmp/com.apple.MobileSMS/LinkedFiles/554CEC3A-C87A-4506-B3C2-CE4B526A323F/AutoProxy.pac linkFileURL:file:///var/tmp/com.apple.MobileSMS/LinkedFiles/554CEC3A-C87A-4506-B3C2-CE4B526A323F/AutoProxy.pac filename:AutoProxy.pac transcoderUserInfo:(null) currentBytes:0 totalBytes:487 message:(null)]";
+	}est{
+	}' subject:'(null)']
+
+
+Jun 15 16:11:16 The-Supreme-Overlord MobileSMS[47400]: [CKTranscriptController sendMessage:<CKComposition: 0x17843b320> text:'A{
+	    NSAttachment = "<CKImageMediaObject: 0x17062f580>(public.png) [<CKIMFileTransfer: 0x1700dd960> [[IMFileTransfer: 0x1701b3da0  state: Waiting for Accept  local path: /var/mobile/Documents/PbGt1vq.png  transferred name: (null)  guid: 20693317-D3AA-4B65-81BA-7AF1B961806A  error: 0  total bytes: 6765]] isFileURLFinalized:0 isFileDataReady:0 isDownloadable:1 isDownloading:0 isRestoring:0 error:(null) fileURL:file:///var/tmp/com.apple.MobileSMS/LinkedFiles/AF2E6CB9-A6E6-46E4-9970-72A1CBD78B54/PbGt1vq.png linkFileURL:file:///var/tmp/com.apple.MobileSMS/LinkedFiles/AF2E6CB9-A6E6-46E4-9970-72A1CBD78B54/PbGt1vq.png filename:PbGt1vq.png transcoderUserInfo:(null) currentBytes:0 totalBytes:6765 message:(null)]";
+
+*/

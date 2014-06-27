@@ -1,0 +1,14 @@
+Pollux converts image links to images inline in texts. 
+
+Currently supports:
+- Imgur links (all types)
+- Anything ending in .png
+- Anything ending in .jpg
+
+TODO: 
+- ImageShack
+- PostImage
+- TinyPic
+- PhotoBucket
+- Gyazo
+- PrintScreen
