@@ -1,4 +1,4 @@
-Pollux converts image links to images inline in texts. 
+Pollux converts image links to images inline in texts. Requires SettingsKit.
 
 Currently supports:
 - Imgur links (all types)
