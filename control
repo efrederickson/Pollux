@@ -1,6 +1,6 @@
 Package: com.efrederickson.pollux
 Name: Pollux
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.efrederickson.settingskit
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: Convert image links to images inline in texts
